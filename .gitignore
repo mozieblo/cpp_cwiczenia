@@ -1,0 +1,4 @@
+git# Visual Studio Code metadata
+.vscode/
+
+*.dSYM
