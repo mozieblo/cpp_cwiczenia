@@ -15,8 +15,8 @@ int main()
 
     
         cout << "Podaj imie: " << endl; cin >> imie;
-        cout << "Podaj imie nazwisko: " << endl; cin >> nazwisko;
-        cout << "Podaj imie nr telefonu: " << endl; cin >> nr_telefonu;
+        cout << "Podaj nazwisko: " << endl; cin >> nazwisko;
+        cout << "Podaj nr telefonu: " << endl; cin >> nr_telefonu;
        
     fstream plik;
     plik.open("dane.txt", ios::out | ios::app);
